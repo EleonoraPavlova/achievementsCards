@@ -1,6 +1,9 @@
+import {FlatCompat} from "@eslint/eslintrc";
+import pluginReactRefresh from "eslint-plugin-react-refresh";
+import simpleImportSort from "eslint-plugin-simple-import-sort";
+import unusedImports from "eslint-plugin-unused-imports";
 import {dirname} from "path";
 import {fileURLToPath} from "url";
-import {FlatCompat} from "@eslint/eslintrc";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -12,6 +15,11 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
+    plugins: {
+      "react-refresh": pluginReactRefresh,
+      "simple-import-sort": simpleImportSort,
+      "unused-imports": unusedImports,
+    },
     files: ['**/*.{ts,tsx,mjs}'],
     rules: {
       'no-unused-vars': [

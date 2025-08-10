@@ -1,0 +1,131 @@
+{
+  "userProgress": {
+    "totalAchievements": 143,
+    "unlockedAchievements": 18,
+    "comparisonText": "Ви крутіші, ніж 87% спеціалістів!"
+  },
+  "achievementCategories": [
+    {
+      "id": "all",
+      "title": "Всі досягнення",
+      "count": 134
+    },
+    {
+      "id": "platform",
+      "title": "Досягнення на платформе",
+      "count": 56
+    },
+    {
+      "id": "specialist",
+      "title": "Досягнення спеціалиста",
+      "count": 23
+    },
+    {
+      "id": "ranks",
+      "title": "ВСЕ РАНГИ",
+      "count": 8
+    }
+  ],
+  "achievements": {
+    "unlocked": [
+      {
+        "id": "unlocked1",
+        "title": "Документаліст",
+        "description": "Додано 30 корисних документів",
+        "progress": {
+          "current": 12,
+          "total": 50
+        }
+      },
+      {
+        "id": "unlocked2",
+        "title": "Автор статей",
+        "description": "За опублікованих статей в блоге",
+        "progress": {
+          "current": 25,
+          "total": 50
+        }
+      },
+      {
+        "id": "unlocked3",
+        "title": "Документаліст",
+        "description": "Досягнення",
+        "progress": {
+          "current": 65,
+          "total": 100
+        }
+      }
+    ],
+    "platform": [
+      {
+        "id": "platform1",
+        "title": "Документаліст",
+        "description": "Додано 30 корисних документів",
+        "progress": {
+          "current": 12,
+          "total": 50
+        }
+      },
+      {
+        "id": "platform2",
+        "title": "Автор статей",
+        "description": "За опублікованих статей в блоге",
+        "progress": {
+          "current": 12,
+          "total": 50
+        }
+      },
+      {
+        "id": "platform3",
+        "title": "Автор статей",
+        "description": "За опублікованих статей в блоге",
+        "progress": {
+          "current": 65,
+          "total": 100
+        }
+      }
+    ],
+    "specialist": [
+      {
+        "id": "specialist1",
+        "title": "Документаліст",
+        "description": "Досягнення",
+        "progress": {
+          "current": 65,
+          "total": 100
+        }
+      },
+      {
+        "id": "specialist2",
+        "title": "Документаліст",
+        "description": "Досягнення",
+        "progress": {
+          "current": 65,
+          "total": 100
+        }
+      }
+    ]
+  },
+  "ranks": [
+    {
+      "rank": 1,
+      "title": "Досягнення відкрито 1 ранга",
+      "count": 8
+    },
+    {
+      "rank": 2,
+      "title": "Досягнення відкрито 2 ранга",
+      "count": 7
+    },
+    {
+      "rank": 3,
+      "title": "Досягнення відкрито 3 ранга",
+      "count": 3
+    },
+    {
+      "rank": "locked",
+      "title": "Досягнення закрито",
+      "count": 123
+    }
+  ]
+}
