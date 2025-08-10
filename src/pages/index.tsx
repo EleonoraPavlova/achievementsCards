@@ -1,8 +1,9 @@
-import Head from "next/head";
 import {Raleway} from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import GeneralCard from '@/common/achievementCards/general';
 import localFont from 'next/font/local';
+import Head from "next/head";
+
+import GeneralCard from '@/common/achievementCards/general';
+import styles from "@/styles/Home.module.css";
 
 const geistSans = Raleway({
   variable: "--font-raleway",
@@ -25,7 +26,7 @@ export const museo = localFont({
  variable: '--font-museo',
 })
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -44,3 +45,4 @@ export default function Home() {
     </>
   );
 }
+export default Home

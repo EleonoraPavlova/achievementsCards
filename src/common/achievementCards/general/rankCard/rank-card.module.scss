@@ -1,4 +1,8 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  align-content: center;
   width: 148.5px;
   padding: 16px;
   border-radius: 8px;

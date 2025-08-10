@@ -5,6 +5,7 @@
 
 --color-dark-100: #A7A7A7;
 --color-dark-300: #25252599;
+--color-dark-400: #45454580;
 --color-dark-500: #65656580;
 --color-dark-700: #25252599;
 --color-dark-base: #0A0A0ACC;
@@ -21,7 +22,6 @@
 --line-height-l: 36px;
 
   /*font sizes*/
---font-size-xxs: 0.55rem;
 --font-size-xs: 0.75rem;
 --font-size-s: 0.875rem;
 --font-size-m: 1rem;
