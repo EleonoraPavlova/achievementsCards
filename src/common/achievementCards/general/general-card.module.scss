@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  gap: 8px;
+  border: var(--border-width-s) solid rgba(98, 98, 98, 0.15);
+  padding: var(--padding-xs);
+  border-radius: var(--border-radius-lg);
+}

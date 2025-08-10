@@ -2,19 +2,15 @@
   margin: 0;
   padding: 0;
 
-  font-family: var(--font-family-primary), sans-serif;
   word-break: break-word;
   overflow-wrap: break-word;
+  font-family: var(--font-raleway);
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.overline,
-.subtitle1,
-.subtitle2 {
-  font-weight: var(--font-weight-bold);
+.museoH2 {
+  font-weight: 500;
+  font-family: var(--font-museo);
+  font-size: var(--font-size-xxxxl);
 }
 
 .h1 {
@@ -38,19 +34,17 @@
 }
 
 .h3 {
-  font-size: var(--font-size-l);
-  line-height: var(--line-height-m);
+  font-size: var(--font-size-s);
 
   @media screen and (width <= 320px) {
     font-size: var(--font-size-s);
-    line-height: var(--line-height-m);
   }
 }
 
-.body1,
-.subtitle1,
+.body,
+.subtitle,
 .h4 {
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xxl);
   line-height: var(--line-height-m);
 
   @media screen and (width <= 320px) {
@@ -59,15 +53,12 @@
   }
 }
 
-.caption,
-.body1,
-.body2,
-.link1,
-.link2 {
+.body,
+.link {
   font-weight: var(--font-weight-regular);
 }
 
-.subtitle1 {
+.subtitle {
   line-height: var(--line-height-m);
 
   @media screen and (width <= 320px) {
@@ -75,9 +66,8 @@
   }
 }
 
-.body2,
-.subtitle2,
-.link1 {
+.body,
+.link {
   font-size: var(--font-size-s);
   line-height: var(--line-height-m);
 
@@ -89,28 +79,6 @@
   @media screen and (width <= 480px) {
     font-size: var(--font-size-xs);
     line-height: var(--line-height-s);
-  }
-}
-
-.caption,
-.overline,
-.link2 {
-  font-size: var(--font-size-xs);
-  line-height: var(--line-height-s);
-
-  @media screen and (width <= 320px) {
-    font-size: var(--font-size-xxs);
-    line-height: var(--line-height-s);
-  }
-}
-
-.link1,
-.link2 {
-  cursor: pointer;
-  color: var(--color-info-500);
-
-  &:visited {
-    color: var(--color-info-900);
   }
 }
 

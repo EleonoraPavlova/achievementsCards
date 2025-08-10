@@ -1,12 +1,71 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+  /*colors*/
+--color-light-50: #FFFFFF;
+
+--color-dark-100: #A7A7A7;
+--color-dark-300: #25252599;
+--color-dark-500: #65656580;
+--color-dark-700: #25252599;
+--color-dark-base: #0A0A0ACC;
+
+--color-danger-500: #cc1439;
+
+  /*main*/
+--background: var(--color-light-50);
+--foreground: var(--color-dark-base);
+
+  /*typography*/
+--line-height-s: 16px;
+--line-height-m: 24px;
+--line-height-l: 36px;
+
+  /*font sizes*/
+--font-size-xxs: 0.55rem;
+--font-size-xs: 0.75rem;
+--font-size-s: 0.875rem;
+--font-size-m: 1rem;
+--font-size-l: 1.125rem;
+--font-size-xl: 1.25rem;
+--font-size-xxl: 1.5rem;
+--font-size-xxxl: 2rem;
+--font-size-xxxxl: 2.375rem; /* 38px */
+
+   /*font weights*/
+ --font-weight-regular: 400;
+ --font-weight-bold: 700;
+
+  /*border width */
+--border-width-s: 1px;
+--border-width-m: 2px;
+
+  /*border radius */
+--border-radius-rounded: 50%;      /* Полный круг — для аватарок, иконок, бейджей */
+--border-radius-s: 0.25rem;        /* 4px — легкое скругление, часто для input и кнопок */
+--border-radius-xs: 0.125rem;      /* 2px — минимальное, почти прямоугольник */
+--border-radius-xxs: 0.065rem;     /* ~1px — чисто чтобы угол не резал глаз */
+--border-radius-m: 0.5rem;       /* 8px — комфортное скругление для карточек */
+--border-radius-lg: 1rem;   /*/ 16px*/
+--border-radius-l: 1.5rem;
+
+  /*box-shadow */
+--shadow-0: 0px 0px 0px 6px;
+--shadow-s: 1px 1px 2px 2px;
+--shadow-m: 2px 2px 4px 2px;
+
+  /*padding */
+--padding-xxs: 1px;
+--padding-xs: 8px;
+--padding-s: 12px;
+--padding-m: 16px;
+--padding-l: 24px;
+--padding-xl: 32px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--color-dark-base);
+    --foreground: var(--color-light-50);
   }
 }
 
@@ -19,7 +78,6 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

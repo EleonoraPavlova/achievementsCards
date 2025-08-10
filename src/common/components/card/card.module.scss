@@ -1,0 +1,25 @@
+.card {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 24px;
+
+  background-color: var(--color-dark-700);
+  border: var(--border-width-s) solid var(--color-dark-500);
+  border-radius: var(--border-radius-l);
+  box-shadow: var(--shadow-s) rgb(0 0 0 / 10%);
+
+  @media screen and (width <= 767px) {
+    padding: 16px;
+  }
+}
+
+.hasGradient{
+  background: linear-gradient(
+                  135deg, rgba(217, 163, 94, 0.4) 0%, rgba(217, 163, 94, 0.3) 3%,
+                  rgba(98, 98, 98, 0) 6%,
+                  rgba(98, 98, 98, 0.15) 20%
+  );
+}

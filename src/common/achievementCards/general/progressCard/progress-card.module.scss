@@ -1,0 +1,11 @@
+.container {
+  border: 0.5px solid var(--color-dark-500);
+  padding: var(--padding-m);
+  border-radius: var(--border-radius-m);
+}
+
+.title {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
